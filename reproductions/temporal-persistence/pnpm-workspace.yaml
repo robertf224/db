@@ -1,0 +1,3 @@
+# Keep the published-package reproduction independent of the repository workspace.
+packages:
+  - .

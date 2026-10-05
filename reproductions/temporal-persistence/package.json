@@ -1,0 +1,17 @@
+{
+  "name": "tanstack-db-temporal-persistence-reproduction",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "test": "node --test repro.test.mjs"
+  },
+  "dependencies": {
+    "@tanstack/db": "0.11.3",
+    "@tanstack/db-sqlite-persistence-core": "0.4.3",
+    "@tanstack/offline-transactions": "1.0.61",
+    "temporal-polyfill": "0.3.2"
+  }
+}
